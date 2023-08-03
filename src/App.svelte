@@ -2,6 +2,7 @@
   import Adder from "./lib/Adder.svelte";
   import Counter from "./lib/Counter.svelte";
   import Message from "./lib/Message.svelte";
+  import NumberType from "./lib/NumberType.svelte";
 
   const text = "svelte";
 </script>
@@ -12,6 +13,8 @@
 <Counter />
 <hr class="line" />
 <Adder />
+<hr class="line" />
+<NumberType />
 
 <style>
   h1 {
